@@ -13,7 +13,7 @@ Find Results
 *** Keywords ***
 The search of ${item} returns ${expected}
     create session    alias         ${url}${item}
-    ${resp}=          get request   alias  /
+    ${resp} =         get request   alias  /
     status should be  200           ${resp}
     should contain    ${resp.text}  ${expected}
     delete all sessions

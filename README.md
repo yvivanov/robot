@@ -1,7 +1,6 @@
 ### Install robot framework environment
 ```
-pip install robotframework
-pip install robotframework-requests
+pip install robotframework robotframework-requests robotframework-appiumlibrary
 ```
 ### Http request Data Driven Test
 ```
@@ -29,8 +28,10 @@ The search of ${item} returns ${expected}
 
 ![report](02.jpg)
 
-### Appium Android/iOS test
-[The Appium](https://github.com/serhatbolsu/robotframework-appiumlibrary) server itself defines custom extensions to the official protocols, giving Appium users helpful access to various device behaviors (such as installing/uninstalling apps during the course of a test session). This is why we need Appium-specific clients, not just the 'vanilla' Selenium clients. 
+### Appium Android/iOS Test
+* [Appium Getting Started](http://appium.io/docs/en/about-appium/getting-started/)
+
+[The Appium](https://github.com/serhatbolsu/robotframework-appiumlibrary) server itself defines custom extensions to the official protocols, giving Appium users helpful access to various device behaviors (such as installing/uninstalling apps during the course of a test session). This is why we need Appium-specific clients, not just the 'vanilla' Selenium clients.
 ```
 # Android environment
 import unittest
@@ -49,7 +50,7 @@ el.click()
 ```
 
 ```
-# iOS environment
+# iOS environment (macOS 10.12 is required)
 import unittest
 from appium import webdriver
 
