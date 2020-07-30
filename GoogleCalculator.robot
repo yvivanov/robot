@@ -1,8 +1,10 @@
 *** Settings ***
 Documentation   Robot Framework Demo
 Library         RequestsLibrary
+
 *** Variables ***
 ${url}          https://www.google.com/search?q=
+
 *** Test Cases ***
 Find Results
     [Template]  The search of ${item} returns ${expected}
@@ -10,6 +12,7 @@ Find Results
         11111*11111      123454321
         111111*111111    12345654321
         1111111*1111111  1234567654321
+
 *** Keywords ***
 The search of ${item} returns ${expected}
     create session    alias        ${url}${item}

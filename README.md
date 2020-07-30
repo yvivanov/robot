@@ -50,7 +50,7 @@ el.click()
 ```
 
 ```
-# iOS environment (macOS 10.12 is required)
+# iOS environment macOS 10.[11|12] is required
 import unittest
 from appium import webdriver
 
