@@ -67,6 +67,7 @@ Click alert button then dismiss it
 ![report android](04.png)
 
 ### Appium iOS Test
+* MacOS 10.11+ required
 ```
 *** Settings ***
 Resource       ../resources/setup.robot
@@ -88,7 +89,7 @@ Click alert button
     ${title}  get element attribute         ${alert}        name
     should be equal                         ${title}        Cool title
 ```
-***Mac Book TBD***
+***MacOS todo***
 
 [Python Client](https://github.com/appium/python-client)
 
