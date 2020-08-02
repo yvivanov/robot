@@ -89,7 +89,11 @@ Click alert button
     ${title}  get element attribute         ${alert}        name
     should be equal                         ${title}        Cool title
 ```
-***MacOS todo***
+***MacOS Xcode 6.2***
+
+![iOS_simulators](05.jpg)
+
+***. . .***
 
 [Python Client](https://github.com/appium/python-client)
 
