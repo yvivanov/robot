@@ -19,5 +19,5 @@ Open iOS Application
     ...  automationName=XCUITest
     ...  app=${CURDIR}/../applications/Apple.app.zip
     ...  platformName=iOS
-    ...  platformVersion=13.6
+    ...  platformVersion=12.1
     ...  deviceName=iPhone 8

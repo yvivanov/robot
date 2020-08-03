@@ -89,7 +89,7 @@ Click alert button
     ${title}  get element attribute         ${alert}        name
     should be equal                         ${title}        Cool title
 ```
-***MacOS Xcode 6.2***
+***MacOS 10.13.6 Xcode 10.1***
 
 ![iOS_simulators](05.jpg)
 
